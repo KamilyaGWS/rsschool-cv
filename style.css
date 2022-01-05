@@ -1,4 +1,109 @@
-div {
-   color: blueviolet;
-   font-size: 40px;
+img {
+	max-width: 100%;
+	height: auto;	
 }
+
+body {
+	font-family: 'Oswald';
+	font-size: 16px;
+	font-weight: 300;
+    color: #4d4d4d;
+    width: 1200px;
+    margin: auto;
+    background-color: antiquewhite;
+}
+
+h2 {
+    background-color: #545454;
+    color: #ffffff;
+    text-align: center;
+}
+
+ul li a {
+    text-decoration: none;
+}
+header {
+    width: auto;
+    margin-bottom: 20px;
+}
+header nav {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    background: #333333;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    list-style: none;
+
+}
+
+header nav ul li a {
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+	color: #707070;
+}
+
+header nav ul li a:hover {
+    color: #000000;
+}
+
+main .me {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+main .avatar img {
+    width: 300px;
+    border-radius: 50%;
+}
+
+main .name {
+    display:flex; 
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+main .name h1 {
+    font-size: 70px;
+}
+main .name span {
+    font-size: 30px;
+    position: relative;
+    bottom: 30px;
+}
+
+.columns {
+    display: flex;
+
+}
+
+.left-column {
+    width: auto;
+    padding-right: 30px;
+    border-right: 1px solid #333333;
+}
+
+.right-column {
+    padding-left: 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    background: #333333;
+    color: #ffffff;
+}
+footer img {
+width: 70px;
+}
+
